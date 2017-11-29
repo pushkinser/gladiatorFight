@@ -1,52 +1,34 @@
 package fight.model.gladiator;
 
 import fight.model.armor.Armor;
-import fight.model.gladiator.parameter.Spirit;
-import fight.model.human.Human;
-import fight.model.gladiator.parameter.Skill;
+import fight.model.gladiator.properties.CalculatedProperties;
+import fight.model.gladiator.properties.Experience;
+import fight.model.gladiator.properties.ImprovedProperties;
+import fight.model.gladiator.properties.InnateProperties;
 import fight.model.weapon.Weapon;
-
-import java.util.List;
 
 /**
  * @author Сергей
  */
-public class Gladiator extends Human {
+public class Gladiator {
+
+    private Double cost;
+    private Integer age;
+    private String alias;
+    private String name;
+
+    private Experience experience;
+
+    private ImprovedProperties improvedProperties;
+    private InnateProperties innateProperties;
+    private CalculatedProperties calculatedProperties;
 
     private Weapon weapon;
     private Armor armor;
-    private List<Skill> skillList;
-    private Spirit spirit;
-    private int countSpirit;
 
-    public Gladiator() {
-    }
+    private Integer morality;
+    private Integer reputation;
+    private Integer complacency;
+    private Integer nationality;
 
-    public Gladiator(Weapon weapon) {
-        this.weapon = weapon;
-    }
-
-    public Weapon getWeapon() {
-        return weapon;
-    }
-
-    public void setWeapon(Weapon weapon) {
-        this.weapon = weapon;
-    }
-
-    public List<Skill> getSkillList() {
-        return skillList;
-    }
-
-    public void setSkillList(List<Skill> skillList) {
-        this.skillList = skillList;
-    }
-
-    public int getCountSpirit() {
-        return countSpirit;
-    }
-
-    public void setCountSpirit(int countSpirit) {
-        this.countSpirit = countSpirit;
-    }
 }

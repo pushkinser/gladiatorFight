@@ -7,21 +7,11 @@ public class Weapon {
 
     private WeaponType TYPE;
     private String title;
-    private Double mass;
+    private int level;
+    private Integer damage;
+    private Double weight;
+    // wear - износ.
+    private Double wear;
+    private Double cost;
 
-    public Weapon(WeaponType TYPE) {
-        this.TYPE = TYPE;
-    }
-
-    public WeaponType getTYPE() {
-        return this.TYPE;
-    }
-
-    public String getTitle() {
-        return this.title;
-    }
-
-    public Double getMass() {
-        return this.mass;
-    }
 }

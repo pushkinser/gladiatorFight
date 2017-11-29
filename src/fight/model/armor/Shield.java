@@ -3,9 +3,9 @@ package fight.model.armor;
 /**
  * @author Сергей
  */
-public class Armor {
+public class Shield {
 
-    private ArmorType armorType;
+    private ShieldType shieldType;
     private String title;
     private Integer level;
     private Integer protection;
