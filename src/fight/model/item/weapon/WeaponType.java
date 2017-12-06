@@ -1,4 +1,4 @@
-package fight.model.weapon;
+package fight.model.item.weapon;
 
 /**
  * @author Сергей

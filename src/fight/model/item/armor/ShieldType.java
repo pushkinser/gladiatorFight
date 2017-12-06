@@ -1,4 +1,4 @@
-package fight.model.armor;
+package fight.model.item.armor;
 
 /**
  * @author Сергей

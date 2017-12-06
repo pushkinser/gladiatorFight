@@ -1,17 +1,14 @@
-package fight.model.armor;
+package fight.model.item;
 
 /**
  * @author Сергей
  */
-public class Armor {
+public class Item {
 
-    private ArmorType armorType;
     private String title;
-    private Integer level;
-    private Integer protection;
+    private int level;
     private Double weight;
     // wear - износ.
     private Double wear;
     private Double cost;
-
 }

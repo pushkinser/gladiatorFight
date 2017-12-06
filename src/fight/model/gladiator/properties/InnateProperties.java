@@ -7,5 +7,5 @@ package fight.model.gladiator.properties;
 // Врожденные
 public class InnateProperties {
 
-    private Talent talent;
+    private Integer talent;
 }

@@ -1,11 +1,12 @@
 package fight.model.gladiator;
 
-import fight.model.armor.Armor;
+import fight.model.item.armor.Armor;
 import fight.model.gladiator.properties.CalculatedProperties;
 import fight.model.gladiator.properties.Experience;
 import fight.model.gladiator.properties.ImprovedProperties;
 import fight.model.gladiator.properties.InnateProperties;
-import fight.model.weapon.Weapon;
+import fight.model.item.armor.Shield;
+import fight.model.item.weapon.Weapon;
 
 /**
  * @author Сергей
@@ -25,6 +26,7 @@ public class Gladiator {
 
     private Weapon weapon;
     private Armor armor;
+    private Shield shield;
 
     private Integer morality;
     private Integer reputation;
