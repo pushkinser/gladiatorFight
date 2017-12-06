@@ -10,4 +10,19 @@ public class Shield extends Item {
     private ShieldType shieldType;
     private Integer protection;
 
+    public ShieldType getShieldType() {
+        return shieldType;
+    }
+
+    public void setShieldType(ShieldType shieldType) {
+        this.shieldType = shieldType;
+    }
+
+    public Integer getProtection() {
+        return protection;
+    }
+
+    public void setProtection(Integer protection) {
+        this.protection = protection;
+    }
 }

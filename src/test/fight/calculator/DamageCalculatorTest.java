@@ -1,6 +1,7 @@
 package test.fight.calculator;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.*;
+
 
 /**
  * @author Сергей
