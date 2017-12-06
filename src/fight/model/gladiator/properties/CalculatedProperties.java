@@ -1,7 +1,8 @@
 package fight.model.gladiator.properties;
 
 /**
- * @author Сергей
+ * Здоровье хранит в себе текущие состояние гладиатора,
+ * максимум для конкретного гладиатора можно получить через рассчет Health.
  */
 public class CalculatedProperties {
 
